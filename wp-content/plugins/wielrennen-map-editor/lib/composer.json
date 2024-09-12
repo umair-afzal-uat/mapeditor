@@ -1,0 +1,5 @@
+{
+    "require": {
+        "sibyx/phpgpx": "1.1.3"
+    }
+}

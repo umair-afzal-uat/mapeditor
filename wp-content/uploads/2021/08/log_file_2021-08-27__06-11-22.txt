@@ -1,0 +1,14 @@
+
+---Downloaded files---
+The import files for: Home 4 were successfully downloaded!
+Initial max execution time = 300
+Files info:
+Site URL = https://mapeditor.arhamsoft.info
+Data file = /home/mapeditorarhamso/public_html/wp-content/uploads/2021/08/demo-content-import-file_2021-08-27__06-11-22.xml
+Widget file = not defined!
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---pt-ocdi/after_import---
+

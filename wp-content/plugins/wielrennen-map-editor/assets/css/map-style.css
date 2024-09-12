@@ -1,0 +1,688 @@
+
+.transfer {
+    width: 100%;
+}
+
+.transfer .item, .question .item {
+    padding: 24px 40px 16px;
+    border-bottom: 1px solid #e8e9e8;
+}
+.question .item p{
+    margin-bottom: 0px;
+}
+.transfer .item.strava a.button {
+    background-color: #FC4C01;
+    cursor: pointer;
+}
+html:not(.strava_active) .transfer .item.strava .search {
+    display: none;
+}
+
+.transfer .item a.button {
+    color: #fff;
+}
+.transfer a.button.large {
+    height: 48px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-weight: 600;
+    letter-spacing: .05em;
+    font-size: 16px;
+}
+.transfer a.button {
+    display: inline-flex;
+    width: 100%;
+    padding: 0 24px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-decoration: none;
+}
+.transfer .item.upload {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0 0 3px 3px;
+}
+.button.tertiary {
+    color: #fff;
+    background-color: #484c4c;
+}
+.transfer .item.upload input {
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.transfer .item.upload a.button {
+    position: relative;
+}
+.transfer h6 {
+    font-size: 12px;
+    font-weight: 500;
+}
+.title h1 {
+    text-align: center;
+}
+.main_group h1 {
+    text-align: center;
+    width: 100%;
+}
+
+section.step:not(.display) {
+    display: none;
+}
+.sidebar header {
+    background: #ddd;
+    min-height: 60px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+/*.sidebar .title {
+    background: #ddd;
+    min-height: 60px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}*/
+.sidebar {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    position: fixed;
+    width: 100%;
+    max-width: 480px;
+    z-index: 100;
+    height: 100%;
+    border-left: 0px;
+}
+.sidebar .title h2{
+    margin-bottom: 0px;
+}
+.sidebar .scroll {
+    position: relative;
+    z-index: 1;
+    overflow-y: auto;
+    height: calc(100% - 247px);
+}
+.canves-img-container{
+    height: 100vh;
+}
+main.bg-map-main::before {
+    content: '';
+    z-index: 2;
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 1080px;
+    background-image: url('/wp-content/uploads/2021/09/desktop.jpg');
+    background-position: 0 0;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+main.bg-map-main.show-map::before {
+    content: none;
+}
+/* width */
+.sidebar .scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.sidebar .scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.sidebar .scroll::-webkit-scrollbar-thumb {
+  background: #ddd;
+}
+
+/* Handle on hover */
+.sidebar .scroll::-webkit-scrollbar-thumb:hover {
+  background: #ddd;
+}
+
+.sidebar a.button.tertiary {
+    color: #fff;
+    background-color: #202a36;
+}
+section.step.strava .field.search {
+    width: 100%;
+    margin-bottom: 16px;
+    position: relative;
+}
+.field.search input {
+    width: 100%;
+    height: 48px;
+    padding: 0 50px 0 16px;
+    color: #383838;
+    border: 1px solid #979b9b;
+    border-radius: 3px;
+    font-weight: 400;
+    letter-spacing: .0375em;
+    font-size: 14px;
+}
+.strava .content{
+padding: 24px 32px;
+}
+.field.search::after {
+    content: "\f179";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin: -9px 16px 0;
+    content: "";
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+.sidebar footer {
+    position: absolute;
+    bottom: 30px;
+    background: #ddd;
+    margin-left: 0px;
+    text-align: left;
+    z-index: 100;
+    width: 100%;
+}
+.sidebar footer .content {
+   /* background: #fff;*/
+    margin: 32px;
+    border-radius: 6px;
+    padding: 21px 20px 15px;
+    margin-bottom: 10px;
+}
+.sidebar footer .content h4 {
+    font-size: 16px;
+}
+.sidebar footer .content p {
+    margin-bottom: 0px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.sidebar footer .action a{
+    text-align: center;
+    background: #e8773f;
+    color: #fff;
+    /*margin: 10px 32px;*/
+    padding: 10px;
+    display: block;
+}
+.sidebar footer .action a{
+    width: 100%;
+    color: #fff;
+}
+section.list {
+    width: 100%;
+    
+}
+section.step.strava section.list .item.clone:only-child::after {
+    content: "No activities found";
+}
+
+section.step.strava section.list .item.clone{
+    text-align: center;
+
+}
+
+section.list .list-item {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #e8e9e8;
+    background: #fff;
+    padding: 20px;
+}
+section.list .list-item.clone {
+    all: unset;
+}
+section.list .list-item.clone>* {
+    display: none;
+}
+.list-item a.toggle {
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    padding: 0px 17px 0px 9px;
+    max-height: 33px;
+    margin-top: 10px;
+}
+.list-item a.toggle:before {
+    background: black;
+    content: '\002B';
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-right: 8px;
+}
+.list-item .detail h4 {
+    font-size: 16px;
+}
+section.list .detail .metadata span {
+    color: #979b9b;
+    font-weight: 400;
+    letter-spacing: .0375em;
+    font-size: 12px;
+}
+.group {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.group.style .scheme {
+    display: flex;
+    margin: 0 -6px -16px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.group.style a.item {
+    position: relative;
+    display: flex;
+    width: calc((25% - 12px));
+    margin: 0 6px 16px;
+    align-items: center;
+    flex-direction: column;
+    border: unset;
+}
+.group.style a.item .picture {
+    width: 75%;
+    margin-top: 2px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.group.style a.item.active .picture img {
+    box-shadow: 0 0 0 2px #E46A2F;
+}
+.group.style a.item .picture img{
+    border-radius: 50%;
+}
+.group.style a.item h6{
+    font-size: 12px;
+    font-weight: normal;
+    padding-top: 10px;
+}
+.design .content, .review .content{
+padding: 24px 32px;
+}
+
+.group .block {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    column-gap: 10px;
+}
+
+.group .block .icon {
+    width: 30px;
+    height: 40px;
+    border: 1px solid #ddd;
+    margin: auto;
+/*    position: relative;
+    top: 13px;*/
+}
+.group a.item {
+    border: 1px solid #ddd;
+    width: 100%;
+    max-width: 100px;
+    margin-bottom: 20px;
+    min-height: 86px;
+}
+.group a.item.active{
+    border-color: #e46a2f;
+}
+.group.orientation a.item.active .icon{
+    background: #ddd;
+}
+.group .block .icon{
+    font-size: 12px;
+    font-weight: normal;
+}
+.group a.item h6{
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 10px;
+
+}
+.group.size a.item .metadata span {
+    color: #979b9b;
+    font-weight: 400;
+    font-size: 10px;
+}
+.group.size a.item h6{
+    margin-bottom: 5px;
+}
+.group.size a.item {
+    padding: 10px;
+}
+.group h3, .title h2 {
+    text-transform: uppercase;
+}
+.group a.item.landscape .icon {
+    width: 40px;
+    height: 30px;
+    margin-top: 8px;
+    top: 13px;
+    position: relative;
+}
+.group.outline a.item h6 {
+    margin-top: 12px;
+}
+/*.group.outline .block .icon{
+top: 0px;
+}*/
+.group .outline-icon span {
+    width: 26px;
+    height: 36px;
+    display: block;
+    align-items: center;
+}
+.group.outline .block .icon{
+    border-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+.group.outline .block .icon span{
+    background: #ddd;
+}
+.group.outline .circle-icon span {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.group.outline .square-icon.icon span {
+    width: 20px;
+    height: 20px;
+}
+.none-icon.icon span{
+    width: 28px;
+    height: 38px;
+    border-radius: 4px;
+}
+a.item.portrait .icon {
+    position: relative;
+    top: 13px;
+}
+.group.gradient .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border-color: #000;
+}
+
+.group.gradient .radial-icon span{
+    background: radial-gradient(#f4f4f4 0, #d8d8d8 50%);
+    width: 18px;
+    height: 28px;
+}
+.group.gradient .none-icon span{
+    background: #ddd;
+    width: 38px;
+    height: 38px;
+    border-radius: 4px;
+}
+.group.gradient .vertical-icon span{
+    background: linear-gradient(180deg, #d8d8d8, #f4f4f4, #d8d8d8);
+    width: 18px;
+    height: 28px;
+}
+.group .form-control {
+    box-shadow: none;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 4px;
+    height: 40px;
+}
+.group.text .note{
+    font-size: 9px;
+}
+.group>p{
+    font-size: 12px;
+}
+.group .svg-icon {
+    width: 100%;
+}
+.group .svg-icon svg{
+    width: 40px;
+    height: 30px;
+    margin-top: 10px;
+}
+.group .anchor_bottom .svg-icon svg{
+      width: 28px;
+}
+.group.label a.item h6{
+    margin-top: 0px;
+}
+.group.label a.item.active .svg-icon svg, .group.label a.item:hover .svg-icon svg {
+    fill: #e8773f;
+}
+.group a.item.active h6, .group a.item:hover h6{
+    color: #e46a2f;
+}
+.group a.item.active .icon, .group a.item:hover .icon{
+     border-color: #e46a2f;
+}
+.group a.item.active svg, .group a.item:hover svg{
+    fill: #e46a2f;
+}
+.group.line_width .item{
+    min-height: 70px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.group .inline a.item {
+    border-radius: 4px;
+    margin-bottom: 8px;
+    display: inline-block;
+    min-height: 30px;
+    max-width: 98px;
+    cursor: pointer;
+}
+.group .inline a.item:hover{
+    color: #e46a2f;
+    border-color: #e46a2f;
+}
+.group.elevation_multiply .shapes span {
+    display: block;
+    width: 0;
+    height: 0;
+    margin-top: auto;
+    content: "";
+    border-color: transparent transparent #ddd transparent;
+    border-style: solid;
+}
+.group.elevation_multiply a.item.small .shapes span {
+    border-width: 0 32px 8px 32px;
+}
+.group .shapes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.group.elevation_multiply a.item h6, .group.point_activity a.item h6, .group.point_finish a.item h6{
+    margin-top: 0px;
+}
+.group.elevation_multiply a.item.medium .shapes span{
+    border-width: 0 32px 16px 32px;
+}
+.group.elevation_multiply a.item.large .shapes span{
+    border-width: 0 32px 24px 32px;
+}
+.content p {
+    line-height: 20px;
+}
+.content ul {
+    list-style: none;
+}
+.content .bg-white {
+    background: #efefef;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.sidebar footer .content {
+    padding: 0px;
+}
+.sidebar .step.intro .scroll{
+    height: 100%;
+}
+
+#map { 
+    position: absolute; 
+    top: 10%; 
+    bottom: 10%; 
+    width: 100%; 
+}
+
+section.list a.toggle::after {
+    color: #484c4c;
+    content: "Add";
+    font-weight: 500;
+    letter-spacing: .0375em;
+    font-size: 12px;
+}
+
+section.list .list-item.loading a.toggle::after {
+    content: "Loading";
+    
+}
+
+/*section.layer {
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+html.paper_size-a3.paper_orientation-portrait.outline_type-classic section.layer.label {
+    padding: 320px 125px 300px;
+}
+html:not(.outline_type-none) section.layer.outline {
+    box-shadow: 0 0 0 1px #fff, inset 0 0 0 10px #fff;
+}
+
+html.paper_size-a3 section.layer.elevation {
+    padding: 54px;
+}
+
+section.layer.elevation {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+html.paper_size-a3.paper_orientation-portrait.outline_type-classic section.layer.text {
+    padding: 125px 0 160px;
+}
+html.paper_size-a3.font_size-medium section.layer.text {
+    font-size: 40px;
+}
+html.font_size-medium section.layer.text {
+    border-width: .5em 0 .25em;
+}
+html.font_family-circular section.layer.text {
+    font-family: "circular";
+}
+section.layer.text {
+    display: grid;
+    grid-template-rows: auto auto 1fr auto auto;
+    border: solid transparent;
+}
+html.overlay_type-radial section.layer.overlay::before {
+    width: 175%;
+    height: 175%;
+    content: "";
+    -webkit-mask-image: url(../gfx/dither.png),url(../gfx/layer/overlay/radial.svg);
+    mask-image: url(../gfx/dither.png),url(../gfx/layer/overlay/radial.svg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section.layer.overlay::before {
+    display: block;
+    background-color: var(--style-overlay);
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-size: auto,cover;
+    mask-size: auto,cover;
+    -webkit-mask-repeat: repeat,no-repeat;
+    mask-repeat: repeat,no-repeat;
+}
+
+section.layer iframe.basemap {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+html:not(.render_active).scale_active section.poster {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(var(0.294667, 1));
+}
+
+html.paper_orientation-portrait section.poster {
+    width: var(--paper-size-0);
+    height: var(--paper-size-1);
+}
+html.paper_size-a3 section.poster {
+    --paper-size-0: 1060px;
+    --paper-size-1: 1500px;
+}
+html:not(.render_active) section.poster {
+    position: absolute;
+    flex: 0 0 auto;
+    box-shadow: 6px 12px 24px rgb(0 0 0 / 13%);
+    transform-origin: center;
+}
+section.poster {
+    background-color: #fff;
+}
+
+html:not(.render_active) section.preview {
+    padding: 32px 72px;
+    align-items: center;
+    justify-content: center;
+}
+section.preview {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex: 1;
+    flex-direction: row;
+}
+iframe body {
+        min-height: 100%;
+}*/

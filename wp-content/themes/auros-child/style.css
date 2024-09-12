@@ -1,0 +1,99 @@
+/*
+Theme Name: Auros Child
+Theme URI: https://wordpress.org/themes/
+Author: Auros group
+Author URI: https://wordpress.org
+Description: Child Theme for Auros Theme
+Template: auros
+Version: 1.0.0
+*/
+
+.handheld-footer-bar {
+    display: none;
+}
+
+.woosw-area .woosw-inner .woosw-content .woosw-content-mid table.woosw-content-items{
+    width: 500px;
+}
+dt.variation-size {
+    text-transform: capitalize;
+}
+.single-product div.product table.variations th {
+    width: 100px;
+}
+.woocommerce-message a.button {
+    margin-right: 10px !important;
+}
+tr.woocommerce-shipping-totals.shipping ul#shipping_method {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+tr.woocommerce-shipping-totals.shipping ul#shipping_method label {
+    margin-bottom: 0;
+}
+tr.woocommerce-shipping-totals.shipping .woocommerce-shipping-destination {
+    margin-bottom: 0;
+}
+tr.woocommerce-shipping-totals.shipping th{
+    vertical-align: text-top;
+    padding-top: 20px;
+}
+#wfacp-e-form .select2-container--default .select2-selection--single .select2-selection__arrow{
+    top: 0 !important;
+}
+td.product-name > div,td.product-name dl.variation {
+    text-align: left;
+}
+.handheld-footer-bar li.search {
+    display: none;
+}
+.wc-item-meta strong.wc-item-meta-label {
+    text-transform: capitalize;
+}
+@media (max-width: 1200px) {
+    .single-image-box{
+        min-height: 400px !important;
+    }
+}
+@media (max-width: 1024px) {
+
+.checkout-left {
+    width: 100% !important;
+}
+.checkout-right {
+    width: 100% !important;
+}
+}
+@media (max-width: 991px) {
+    .single-image-box{
+        min-height: 520px !important;
+    }
+}
+@media (max-width: 768px) {
+    .stick_heading_box {
+        position: relative !important;
+        width: 100% !important;
+    }
+}
+@media (max-width: 767px) {
+    .opal-wrapper {
+        margin-bottom: 0 !important;
+    }
+    .woocommerce-error, .woocommerce-info, .woocommerce-message, .woocommerce-notice{
+        padding: 10px 30px 10px 10px !important;
+    }
+    .woocommerce-error .button, .woocommerce-info .button, .woocommerce-message .button, .woocommerce-noreviews .button, .woocommerce-notice .button, p.no-comments .button{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .woocommerce-error:after, .woocommerce-info:after, .woocommerce-message:after, .woocommerce-notice:after{
+        width: 30px !important;
+    }
+    .page-title {
+        font-size: 1.85714rem;
+    }
+    .single-image-box{
+        min-height: auto !important;
+    }
+    
+}

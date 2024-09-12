@@ -1,0 +1,46 @@
+#place_order
+{
+	display:none;
+}
+label.wcpfc-checkbox-label
+{
+	display: inline !important;
+    margin-left: 5px;
+}
+.wcpf-loader
+{
+	display:none;
+	clear: both;
+	width: 120px;
+	height: 15px;
+	margin-top: 10px;
+}
+.description 
+{
+	margin-top: 5px;
+	display: block;
+}
+.wcpfc_group_container 
+{
+	border: 1px solid #dedede;
+	padding: 8px; 
+	 background: #fcfcfc;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+#wcpfc_extra_product_fields_area_after_billing_form, #wcpfc_extra_product_fields_area_after_shipping_form
+{
+	pointer-events: all;
+}
+button.picker__button--today, button.picker__button--clear, button.picker__button--close 
+{
+	color: black !important;
+}
+.picker__select--year {
+	width: 20% !important;
+	height: 40px !important;
+}
+.picker__select--month {
+	width: 20% !important;
+	height: 40px !important;
+}

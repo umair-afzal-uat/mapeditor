@@ -1,0 +1,712 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WooCommerce Conditional Product Fields at Checkout\n"
+"POT-Creation-Date: 2021-10-11 13:14+0200\n"
+"PO-Revision-Date: 2018-09-04 11:23+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woocommerce-product-fields-checkout.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/admin/WCPFC_ActivationPage.php:52
+#: classes/admin/WCPFC_ActivationPage.php:53
+#: classes/admin/WCPFC_ActivationPage.php:112
+msgid " Activator"
+msgstr ""
+
+#: classes/admin/WCPFC_ActivationPage.php:93
+msgid "Purchase code is invalid!"
+msgstr ""
+
+#: classes/admin/WCPFC_ActivationPage.php:94
+msgid "Buyer name is invalid!"
+msgstr ""
+
+#: classes/admin/WCPFC_ActivationPage.php:95
+msgid "Item id is invalid!"
+msgstr ""
+
+#: classes/admin/WCPFC_ActivationPage.php:96
+msgid ""
+"Max number of domains reached! You have to purchase a new license. The "
+"current license has been activated in the following domains: "
+msgstr ""
+
+#: classes/admin/WCPFC_ActivationPage.php:97
+#: classes/admin/WCPFC_ActivationPage.php:175
+msgid "Verifing, please wait..."
+msgstr ""
+
+#: classes/admin/WCPFC_ActivationPage.php:98
+msgid ""
+"There was an error while verifing the code. Please retry in few minutes!"
+msgstr ""
+
+#: classes/admin/WCPFC_ActivationPage.php:99
+msgid "Activation successfully completed!"
+msgstr ""
+
+#: classes/admin/WCPFC_ActivationPage.php:100
+msgid "Buyer and Purchase code fields must be filled!"
+msgstr ""
+
+#: classes/admin/WCPFC_ActivationPage.php:141
+msgid "Activation"
+msgstr ""
+
+#: classes/admin/WCPFC_ActivationPage.php:158
+msgid ""
+"The plugin can be activate in only <strong>two</strong> domains and they "
+"cannot be unregistered. For each activated domain, you can reactivate "
+"<strong>unlimited</strong> times (including <strong>subdomains</strong> and "
+"<strong>subfolders</strong>). The \"localhost\" domain will not consume "
+"activations. Please enter the following data and hit the activation button"
+msgstr ""
+
+#: classes/admin/WCPFC_ActivationPage.php:164
+msgid "Buyer"
+msgstr ""
+
+#: classes/admin/WCPFC_ActivationPage.php:165
+msgid "Insert the Envato username used to purchase the plugin."
+msgstr ""
+
+#: classes/admin/WCPFC_ActivationPage.php:166
+msgid "Example: vanquish"
+msgstr ""
+
+#: classes/admin/WCPFC_ActivationPage.php:169
+msgid "Purchase code"
+msgstr ""
+
+#: classes/admin/WCPFC_ActivationPage.php:170
+msgid ""
+"Insert the purchase code. It can be downloaded from your CodeCanyon "
+"\"Downloads\" profile page."
+msgstr ""
+
+#: classes/admin/WCPFC_ActivationPage.php:171
+msgid "Example: 7d7c3rt8-f512-227c-8c98-fc53c3b212fe"
+msgstr ""
+
+#: classes/admin/WCPFC_ActivationPage.php:173
+msgid "Activate"
+msgstr ""
+
+#: classes/admin/WCPFC_ActivationPage.php:178
+msgid "The plugin has been successfully activated!"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:22
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:97
+msgid "Fields"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:65
+msgid "WooCommerce Checkout Fields Configurator"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:104
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:381
+msgid "Save"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:123
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:174
+msgid "Add new"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:124
+msgid "Select type"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:125
+msgid "Position"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:126
+msgid "After billing form"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:127
+msgid "After shipping form"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:128
+msgid "Field label"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:129
+msgid "Add new logic rule"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:130
+msgid "Remove"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:131
+msgid "Placeholder"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:132
+msgid "Type the HTML code"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:133
+msgid ""
+"This field will be showed ONLY on the checkout page and it is used to "
+"created heading, description or what you need to better organize other "
+"fields."
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:134
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:173
+msgid "Label"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:135
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:231
+msgid "Is checked"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:136
+msgid "Value"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:137
+msgid "Description"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:138
+msgid "CSS row classes"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:139
+msgid "CSS input classes"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:140
+msgid "Required"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:141
+msgid "Show in emails"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:142
+msgid "Show in the order details page"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:143
+#: classes/com/WCPFC_Field.php:196
+msgid "Yes"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:144
+#: classes/com/WCPFC_Field.php:196
+msgid "No"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:145
+msgid "Row width"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:146
+msgid "Full width"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:147
+msgid "Half left"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:148
+msgid "Half right"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:149
+msgid "Min value"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:150
+msgid "Max value"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:151
+msgid "Genaral options"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:152
+msgid "One time"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:153
+msgid "Per product"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:154
+msgid "Per cart quantity"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:155
+msgid ""
+"Per product: The field will be showed for each matching product. Per cart "
+"quantity: the field will be showed for each mathcing product multiplied its "
+"cart quantity. One time: The field will be showed just one time if any of "
+"the products matches. "
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:156
+msgid "Display policy"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:157
+msgid "Children categories"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:158
+msgid "Consider only categories"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:159
+msgid "Consider categories and all children"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:160
+msgid "Visibility"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:161
+msgid ""
+"Select for which products/categories the fild will be associated. Note that "
+"if no products/categories the field will be associated to all the products "
+"currently in cart."
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:162
+msgid "Select products"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:163
+msgid "Select categories"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:164
+msgid "Countries show"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:165
+msgid ""
+"NOTE: if the All option is selected, state/provinces dropdown selector will "
+"be properly showed only for the allowed selling location configured in the "
+"WooCommerce -> Settings -> General menu"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:166
+msgid "All"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:167
+msgid "Selling location"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:168
+msgid "Shipping location"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:169
+msgid "Hide states/province/county selection"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:170
+msgid "States/province/county selector width"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:171
+msgid "Multiple value selection"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:172
+msgid "Values and labels"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:175
+msgid "Min time"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:176
+msgid "Max time"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:177
+msgid "Min date"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:178
+msgid "Max date"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:179
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:181
+msgid "Min time type"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:180
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:182
+msgid "Max time type"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:183
+msgid "Days of the week to disable"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:184
+msgid "Monday"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:185
+msgid "Tuesday"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:186
+msgid "Wednesday"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:187
+msgid "Thursday"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:188
+msgid "Friday"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:189
+msgid "Saturday"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:190
+msgid "Sunday"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:191
+msgid "Date format"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:192
+msgid "Format used for frontend."
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:193
+msgid "Number of years to show"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:194
+msgid ""
+"You can specify the number of years to show in the year dropdown selector."
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:195
+msgid "Absolute"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:196
+msgid "Relative"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:197
+msgid "Min time can be earlier than \"now\"?"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:198
+msgid "Min date can be earlier than \"now\"?"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:199
+msgid "Minute interval between each time showed in the frontend timepicker"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:200
+msgid "Min relative time from now"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:201
+msgid "Max relative time from now"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:202
+msgid "Min relative date from now"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:203
+msgid "Max relative date from now"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:204
+msgid "Seconds"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:205
+msgid "Minutes"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:206
+msgid "Hours"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:207
+msgid "Days"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:208
+msgid "Months"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:209
+msgid "Years"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:210
+msgid "Conditional logic"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:211
+msgid ""
+"The field will be showed if the following logic rules will be true. Rules "
+"are related with the \"AND\" logic operator. The field can be related only "
+"to other fields that has the same DISPLAY POLICY and POSITION values."
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:212
+msgid "Rule"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:213
+msgid "Or"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:214
+#: classes/com/WCPFC_Country.php:33
+msgid "Any"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:216
+msgid "Is"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:217
+msgid "Not"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:218
+msgid "Condition"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:219
+msgid "Containing"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:220
+msgid "Equal to"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:221
+msgid "Starting with"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:222
+msgid "Ends with"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:223
+msgid "Lesser or equal than"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:224
+msgid "Lesser than"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:225
+msgid "Greater than"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:226
+msgid "Greater or equal than"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:227
+msgid "Multiple values policy"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:228
+msgid "The condition will be considered true if"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:229
+msgid "Condition applies at least one"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:230
+msgid "Condition applies to all"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:232
+msgid "is not checked"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:233
+msgid "Are you sure you want to delete the field?"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:237
+msgid "Text"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:238
+msgid "Textarea"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:239
+msgid "Email"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:240
+msgid "Number"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:241
+msgid "Checkbox"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:242
+msgid "Radio"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:243
+msgid "Select"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:244
+msgid "Date"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:245
+msgid "Time"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:246
+msgid "Country & state"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:247
+msgid "HTML"
+msgstr ""
+
+#: classes/admin/WCPFC_FieldConfiguratorPage.php:371
+msgid "Loading, please wait..."
+msgstr ""
+
+#: classes/com/WCPFC_Country.php:45
+msgid ""
+"(Leave empty to apply to all or type the name of the state/county/province)"
+msgstr ""
+
+#: classes/com/WCPFC_Country.php:135 classes/com/WCPFC_Country.php:197
+msgid "Select one"
+msgstr ""
+
+#: classes/com/WCPFC_Country.php:145 classes/com/WCPFC_Country.php:160
+msgid "State / County"
+msgstr ""
+
+#: classes/com/WCPFC_Field.php:189 classes/com/WCPFC_Field.php:193
+msgid "-"
+msgstr ""
+
+#: classes/com/WCPFC_Field.php:216
+msgid "Billing - "
+msgstr ""
+
+#: classes/com/WCPFC_Field.php:216
+msgid "Shipping - "
+msgstr ""
+
+#: classes/com/WCPFC_Field.php:227
+msgid "Country & State/Province "
+msgstr ""
+
+#: classes/com/WCPFC_PaymentMethod.php:13
+msgid "Payment - "
+msgstr ""
+
+#: classes/com/WCPFC_Product.php:77
+msgid "Variation"
+msgstr ""
+
+#: classes/frontend/WCPFC_Checkout.php:154
+#, php-format
+msgid "for product %s"
+msgstr ""
+
+#: classes/frontend/WCPFC_Checkout.php:158
+#, php-format
+msgid "%s field %s is required."
+msgstr ""
+
+#: classes/frontend/WCPFC_Checkout.php:167
+#, php-format
+msgid "%s field %s value cannot be lesser than %d."
+msgstr ""
+
+#: classes/frontend/WCPFC_Checkout.php:169
+#, php-format
+msgid "%s field %s value cannot be greater than %d."
+msgstr ""
+
+#: classes/frontend/WCPFC_Checkout.php:174
+#, php-format
+msgid "%s field %s is not a valid email."
+msgstr ""
+
+#: classes/frontend/WCPFC_FieldDisplayManagment.php:69
+msgid "Billing"
+msgstr ""
+
+#: classes/frontend/WCPFC_FieldDisplayManagment.php:69
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce-product-fields-checkout.php:57
+#, php-format
+msgid ""
+"To complete the <span style=\"color:#96588a; font-weight:bold;\">%s</span> "
+"plugin activation, you must verify your purchase license. Click <a href=\"%s"
+"\">here</a> to verify it."
+msgstr ""
+
+#: woocommerce-product-fields-checkout.php:162
+msgid "WooCommerce Product Fields"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Conditional Product Fields at Checkout"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Checkout fields showed according to conditional logic."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Lagudi Domenico"
+msgstr ""

@@ -1,0 +1,2103 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mollie Payments for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-13 15:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.5; wp-5.8.3\n"
+"X-Domain: mollie-payments-for-woocommerce"
+
+#: src/Mollie/WC/Helper/Settings.php:630
+msgid " if you have any questions or comments about this plugin."
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:626
+msgid " Mollie is dedicated to making payments better for WooCommerce. "
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:625
+msgid ""
+" Simply drop them ready-made into your WooCommerce webshop with this "
+"powerful plugin by Mollie."
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:627
+msgid " the signup page"
+msgstr ""
+
+#: src/Mollie/WC/Plugin.php:745
+#, php-format
+msgid "%1$s items cancelled in WooCommerce and at Mollie."
+msgstr ""
+
+#: src/Mollie/WC/Plugin.php:727
+#, php-format
+msgid "%1$s items refunded in WooCommerce and at Mollie."
+msgstr ""
+
+#. Placeholder 1: payment method title, placeholder 2: payment ID
+#: src/Mollie/WC/Gateway/Abstract.php:2129
+#, php-format
+msgid ""
+"%1$s payment %2$s via Mollie (%3$s %4$s). You will need to manually review "
+"the payment (and adjust product stocks if you use it)."
+msgstr ""
+
+#: src/Mollie/WC/Helper/ApplePayDirectHandler.php:54
+#, php-format
+msgid ""
+"%1$sApple Pay Validation Error%2$s Check %3$sApple Server requirements "
+"page%4$s to fix it in order to make the Apple Pay button work"
+msgstr ""
+
+#: src/Mollie/WC/Plugin.php:303
+#, php-format
+msgid ""
+"%1$sMollie Payments for WooCommerce%2$s The test mode is active, %3$s "
+"disable it%4$s before deploying into production."
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Abstract.php:2646
+#, php-format
+msgid ""
+"%1$sMollie Payments for WooCommerce%2$s Unable to upload the file. Size must "
+"be under 500kb."
+msgstr ""
+
+#: mollie-payments-for-woocommerce.php:90
+#, php-format
+msgid ""
+"%1$sMollie Payments for WooCommerce: API keys missing%2$s Please%3$s set "
+"your API keys here%4$s."
+msgstr ""
+
+#: src/Mollie/WC/Helper/ApplePayDirectHandler.php:39
+#, php-format
+msgid ""
+"%1$sServer not compliant with Apple requirements%2$s Check %3$sApple Server "
+"requirements page%4$s to fix it in order to make the Apple Pay button work"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:12
+#, php-format
+msgid ""
+"%1sThe PayPal button is optimized for digital goods. And will only appear if "
+"the product has no shipping. %2sThe customer's address information can only "
+"be retrieved if the transaction has been done with the %3sOrders API%4s."
+"%5s%6s"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:250
+#, php-format
+msgid "%s advanced"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:125
+#, php-format
+msgid "%s custom logo"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:61
+#, php-format
+msgid "%s display settings"
+msgstr ""
+
+#. Placeholder 1: payment method title. The surrounding %s's Will be replaced by a link to the Mollie profile
+#: src/Mollie/WC/Gateway/Abstract.php:351
+#, php-format
+msgid ""
+"%s not enabled in your Mollie profile. You can enable it by editing your "
+"%sMollie profile%s."
+msgstr ""
+
+#. Placeholder 1: payment method title, placeholder 2: payment ID
+#: src/Mollie/WC/Payment/Order.php:444
+#, php-format
+msgid "%s order (%s) cancelled ."
+msgstr ""
+
+#. Placeholder 1: payment method title, placeholder 2: payment ID
+#: src/Mollie/WC/Payment/Order.php:931
+#, php-format
+msgid "%s order (%s) expired ."
+msgstr ""
+
+#. Placeholder 1: payment method title, placeholder 2: payment ID
+#: src/Mollie/WC/Payment/Order.php:509
+#, php-format
+msgid ""
+"%s order expired (%s) but not cancelled because of another pending payment "
+"(%s)."
+msgstr ""
+
+#. Placeholder 1: payment method title, placeholder 2: payment status, placeholder 3: payment ID
+#: src/Mollie/WC/Gateway/Abstract.php:894
+#, php-format
+msgid "%s payment %s (%s), not processed."
+msgstr ""
+
+#. Placeholder 1: payment method title, placeholder 2: payment ID
+#: src/Mollie/WC/Payment/Payment.php:334
+#, php-format
+msgid "%s payment (%s) cancelled ."
+msgstr ""
+
+#. Placeholder 1: payment method title, placeholder 2: payment ID
+#: src/Mollie/WC/Gateway/Abstract.php:1237
+#, php-format
+msgid ""
+"%s payment charged back via Mollie (%s). Subscription status updated, please "
+"review (and adjust product stocks if you use it)."
+msgstr ""
+
+#. Placeholder 1: payment method title, placeholder 2: payment ID
+#: src/Mollie/WC/Gateway/Abstract.php:1176
+#, php-format
+msgid ""
+"%s payment charged back via Mollie (%s). You will need to manually review "
+"the payment (and adjust product stocks if you use it)."
+msgstr ""
+
+#. Placeholder 1: payment method title, placeholder 2: payment ID
+#: src/Mollie/WC/Payment/Payment.php:404
+#, php-format
+msgid ""
+"%s payment expired (%s) but not cancelled because of another pending payment "
+"(%s)."
+msgstr ""
+
+#. Placeholder 1: payment method title, placeholder 2: payment ID
+#: src/Mollie/WC/Payment/Payment.php:427
+#, php-format
+msgid "%s payment expired (%s)."
+msgstr ""
+
+#. Placeholder 1: payment method title, placeholder 2: payment ID
+#: src/Mollie/WC/Plugin.php:128
+#, php-format
+msgid "%s payment failed (%s)."
+msgstr ""
+
+#. Placeholder 1: payment method title, placeholder 2: payment ID
+#: src/Mollie/WC/Payment/Object.php:637
+#, php-format
+msgid "%s payment failed via Mollie (%s)."
+msgstr ""
+
+#. Placeholder 1: Payment method title, placeholder 2: payment ID
+#: src/Mollie/WC/Gateway/AbstractSubscription.php:420
+#: src/Mollie/WC/Gateway/AbstractSepaRecurring.php:71
+#: src/Mollie/WC/Gateway/Abstract.php:668
+#, php-format
+msgid "%s payment started (%s)."
+msgstr ""
+
+#. Placeholder 1: payment method title, placeholder 2: payment ID
+#: src/Mollie/WC/Gateway/Abstract.php:1616
+#, php-format
+msgid ""
+"%s payment still pending (%s) but customer already returned to the store. "
+"Status should be updated automatically in the future, if it doesn't this "
+"might indicate a communication issue between the site and Mollie."
+msgstr ""
+
+#. Placeholder 1: payment method title, placeholder 2: payment ID
+#: src/Mollie/WC/Payment/Object.php:603
+#, php-format
+msgid ""
+"%s renewal payment failed via Mollie (%s). You will need to manually review "
+"the payment and adjust product stocks if you use them."
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:159
+#, php-format
+msgid "%s surcharge"
+msgstr ""
+
+#: src/Mollie/WC/Payment/Order.php:742
+#, php-format
+msgid "%sx %s cancelled for %s%s in WooCommerce and at Mollie."
+msgstr ""
+
+#: src/Mollie/WC/Payment/Order.php:758
+#, php-format
+msgid "%sx %s refunded for %s%s in WooCommerce and at Mollie.%s Refund ID: %s."
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Abstract.php:1625
+msgid ", payment pending."
+msgstr ""
+
+#: src/Mollie/WC/Plugin.php:414 src/Mollie/WC/Plugin.php:446
+#: src/Mollie/WC/Plugin.php:469
+msgid "--Please choose an option--"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Abstract.php:2590
+#, php-format
+msgid "A +%1s%% fee might apply"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Abstract.php:2607
+#, php-format
+msgid "A +%1s%2s + %3s%% fee might apply"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Abstract.php:2580
+#, php-format
+msgid "A +%1s%2s fee might apply"
+msgstr ""
+
+#. Description of the plugin
+msgid "Accept payments in WooCommerce with the official Mollie plugin"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:257
+#: src/Mollie/WC/Gateway/BankTransfer.php:38
+msgid "Activate expiry date setting"
+msgstr ""
+
+#: src/Mollie/WC/Settings/Page/Mollie.php:147
+msgid "Advanced"
+msgstr ""
+
+#: src/Mollie/WC/Payment/Order.php:836
+#, php-format
+msgid ""
+"Amount refund of %s%s refunded in WooCommerce and at Mollie.%s Refund ID: %s."
+msgstr ""
+
+#: src/Mollie/WC/Plugin.php:938
+msgid "An unknown error occurred, please check the card fields."
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:109
+msgid "API Payment Description"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Applepay.php:48
+msgid "Apple Pay"
+msgstr ""
+
+#: src/Mollie/WC/Settings/Page/Mollie.php:143
+msgid "Apple Pay Button"
+msgstr ""
+
+#: inc/settings/mollie_applepay_settings.php:79
+#: inc/settings/mollie_apple_pay_button_enabler.php:6
+msgid "Apple Pay button settings"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:40
+msgid "Austrian German"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:26
+msgid "Automatically send WordPress language"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/AbstractSubscription.php:413
+#: src/Mollie/WC/Gateway/AbstractSepaRecurring.php:63
+#: src/Mollie/WC/Gateway/Abstract.php:658
+msgid "Awaiting payment confirmation."
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Bancontact.php:29
+msgid "Bancontact"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/BankTransfer.php:138
+msgid "Bank Transfer"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Belfius.php:33
+msgid "Belfius Direct Net"
+msgstr ""
+
+#. Placeholder 1: 'Stichting Mollie Payments'
+#: src/Mollie/WC/Gateway/BankTransfer.php:202
+#, php-format
+msgid "Beneficiary: %s"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/BankTransfer.php:204
+#, php-format
+msgid "BIC: %s"
+msgstr ""
+
+#: src/Mollie/WC/Plugin.php:923
+msgid "Card number"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:43
+msgid "Catalan"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:190
+msgid "Choose a payment surcharge for this gateway"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Abstract.php:272
+msgid "Choose countries&hellip;"
+msgstr ""
+
+#. Placeholder 1: Default order status, placeholder 2: Link to 'Hold Stock' setting
+#: inc/settings/mollie_advanced_settings.php:99
+#, php-format
+msgid ""
+"Click %shere%s to read more about the differences between the Payments and "
+"Orders API"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:508
+msgid "Connected"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:629
+msgid "Contact "
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:635
+msgid "Contact Support"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:200
+msgid "Control the fee added on checkout. Default 0.00"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:213
+msgid "Control the percentage fee added on checkout. Default 0.00"
+msgstr ""
+
+#. Placeholder 1: Payment method title
+#: src/Mollie/WC/ApplePayButton/AjaxRequests.php:693
+#: src/Mollie/WC/PayPalButton/AjaxRequests.php:78
+#: src/Mollie/WC/PayPalButton/AjaxRequests.php:121
+#: src/Mollie/WC/Gateway/Abstract.php:685
+#, php-format
+msgid "Could not create %s payment."
+msgstr ""
+
+#. Placeholder 1: Payment method title
+#: src/Mollie/WC/Gateway/AbstractSubscription.php:313
+#, php-format
+msgid "Could not create %s renewal payment."
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Abstract.php:525
+#, php-format
+msgid "Could not load order %s"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Abstract.php:273
+msgid "Country"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Creditcard.php:84
+msgid "Credit card"
+msgstr ""
+
+#. Placeholder 1: WooCommerce currency, placeholder 2: Supported Mollie currencies
+#: src/Mollie/WC/Gateway/Abstract.php:363
+#, php-format
+msgid ""
+"Current shop currency %s not supported by Mollie. Read more about "
+"%ssupported currencies and payment methods.%s "
+msgstr ""
+
+#: inc/settings/mollie_creditcard_icons_selector.php:5
+msgid "Customize Icons"
+msgstr ""
+
+#: src/Mollie/WC/Plugin.php:931
+msgid "CVC/CVV"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:49
+msgid "Danish"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:707
+msgid "Debug Log"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:29
+#: inc/settings/mollie_advanced_settings.php:90
+#: src/Mollie/WC/Helper/Settings.php:288
+msgid "default"
+msgstr ""
+
+#: inc/settings/mollie_applepay_settings.php:60
+#: src/Mollie/WC/Helper/Settings.php:81
+msgid "Description"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:30
+msgid "Detect using browser language"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:552
+msgid "Disabled"
+msgstr ""
+
+#. Placeholder 1: enabled or disabled
+#: inc/settings/mollie_applepay_settings.php:45
+#: inc/settings/mollie_applepay_settings.php:48
+#: src/Mollie/WC/Helper/Settings.php:94
+msgid "Display logo"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:99
+msgid "Display logo on checkout page. Default <code>enabled</code>"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:19
+msgid "Display on cart page"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:31
+msgid "Display on product page"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:35
+msgid "Dutch"
+msgstr ""
+
+#: src/Mollie/WC/Plugin.php:417 src/Mollie/WC/Plugin.php:449
+#: src/Mollie/WC/Plugin.php:472 src/Mollie/WC/Plugin.php:585
+msgid "Eco"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:591
+msgid "Edit"
+msgstr ""
+
+#: src/Mollie/WC/Payment/OrderItemsRefunder.php:183
+msgid "Empty WooCommerce order items or mollie order lines."
+msgstr ""
+
+#. Placeholder 1: enabled or disabled
+#: inc/settings/mollie_applepay_settings.php:21
+#: src/Mollie/WC/Helper/Settings.php:54
+#, php-format
+msgid "Enable %s"
+msgstr ""
+
+#: inc/settings/mollie_applepay_settings.php:88
+#: inc/settings/mollie_apple_pay_button_enabler.php:18
+msgid "Enable Apple Pay Button on Cart page"
+msgstr ""
+
+#: inc/settings/mollie_applepay_settings.php:103
+#: inc/settings/mollie_apple_pay_button_enabler.php:29
+msgid "Enable Apple Pay Button on Product page"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:132
+msgid "Enable custom logo"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:258
+#: src/Mollie/WC/Gateway/BankTransfer.php:39
+msgid "Enable expiry date for payments"
+msgstr ""
+
+#: inc/settings/mollie_creditcard_icons_selector.php:12
+msgid "Enable Icons Selector"
+msgstr ""
+
+#: inc/settings/mollie_components_enabler.php:6
+msgid "Enable Mollie Components"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:685
+msgid "Enable test mode"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:688
+msgid ""
+"Enable test mode if you want to test the plugin without using real payments."
+msgstr ""
+
+#. Placeholder 1: enabled or disabled
+#: inc/settings/mollie_applepay_settings.php:91
+#: inc/settings/mollie_apple_pay_button_enabler.php:21
+msgid "Enable the Apple Pay direct buy button on the Cart page"
+msgstr ""
+
+#. Placeholder 1: enabled or disabled
+#: inc/settings/mollie_applepay_settings.php:106
+#: inc/settings/mollie_apple_pay_button_enabler.php:32
+msgid "Enable the Apple Pay direct buy button on the Product page"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:137
+msgid ""
+"Enable the feature to add a custom logo for this gateway. This feature will "
+"have precedence over other logo options."
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:23
+msgid "Enable the PayPal button to be used in the cart page."
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:35
+msgid "Enable the PayPal button to be used in the product page."
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:259
+msgid ""
+"Enable this option if you want to be able to set the number of days after "
+"the order will expire."
+msgstr ""
+
+#: src/Mollie/WC/Gateway/BankTransfer.php:40
+msgid ""
+"Enable this option if you want to be able to set the number of days after "
+"the payment will expire. This will turn all transactions into payments "
+"instead of orders"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/BankTransfer.php:58
+msgid ""
+"Enable this option if you want to skip redirecting your user to the Mollie "
+"payment screen, instead this will redirect your user directly to the "
+"WooCommerce order received page displaying instructions how to complete the "
+"Bank Transfer payment."
+msgstr ""
+
+#: inc/settings/mollie_applepay_settings.php:19
+#: src/Mollie/WC/Helper/Settings.php:48
+msgid "Enable/Disable"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:72
+#: src/Mollie/WC/Helper/Settings.php:551
+msgid "Enabled"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:34
+msgid "English"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/EPS.php:29
+msgid "EPS"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:494
+msgid "Error"
+msgstr ""
+
+#: src/Mollie/WC/Plugin.php:927 src/Mollie/WC/Helper/Settings.php:264
+#: src/Mollie/WC/Gateway/BankTransfer.php:45
+msgid "Expiry date"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Abstract.php:589
+msgid "Failed switching subscriptions, no valid mandate."
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:48
+msgid "Finnish"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:176
+msgid "Fixed fee"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:184
+msgid "Fixed fee and percentage"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:36
+msgid "Flemish (Belgium)"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:37
+msgid "French"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:38
+msgid "French (Belgium)"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Abstract.php:221
+msgid "Gateway Disabled"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:552
+msgid "Gateway disabled"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:551
+msgid "Gateway enabled"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:140
+msgid "Gateway Fee"
+msgstr ""
+
+#: src/Mollie/WC/Settings/Page/Mollie.php:138
+msgid "General"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:39
+msgid "German"
+msgstr ""
+
+#: src/Mollie/WC/Plugin.php:418 src/Mollie/WC/Plugin.php:450
+#: src/Mollie/WC/Plugin.php:473 src/Mollie/WC/Plugin.php:586
+msgid "Gift"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Giftcard.php:58
+msgid "Gift cards"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Giropay.php:29
+msgid "Giropay"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.mollie.com"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:51
+msgid "Hungarian"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/BankTransfer.php:203
+#, php-format
+msgid "IBAN: <strong>%s</strong>"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:50
+msgid "Icelandic"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Ideal.php:60
+msgid "iDEAL"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:126
+msgid ""
+"If the product or the cart total amount is under this number, then the "
+"button will not show up."
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Giftcard.php:33
+msgid ""
+"If you disable this, a dropdown with various gift cards will not be shown in "
+"the WooCommerce checkout, so users will select a gift card on the Mollie "
+"payment page after checkout."
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Ideal.php:35
+msgid ""
+"If you disable this, a dropdown with various iDEAL banks will not be shown "
+"in the WooCommerce checkout, so users will select a iDEAL bank on the Mollie "
+"payment page after checkout."
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Kbc.php:34
+msgid ""
+"If you disable this, a dropdown with various KBC/CBC banks will not be shown "
+"in the WooCommerce checkout, so users will select a KBC/CBC bank on the "
+"Mollie payment page after checkout."
+msgstr ""
+
+#: src/Mollie/WC/Payment/OrderItemsRefunder.php:157
+#, php-format
+msgid ""
+"Impossible to retrieve the order item ID related to the remote item: %1$s. "
+"Try to do a refund by amount."
+msgstr ""
+
+#. Placeholder 1: Default order status, placeholder 2: Link to 'Hold Stock' setting
+#: src/Mollie/WC/Gateway/Mealvoucher.php:46
+msgid ""
+"In order to process it, all products in the order must have a category. This "
+"selector will assign the default category for the shop products"
+msgstr ""
+
+#. Placeholder 1: Default order status, placeholder 2: Link to 'Hold Stock' setting
+#: src/Mollie/WC/Plugin.php:529
+msgid ""
+"In order to process it, all products in the order must have a category. To "
+"disable the product from voucher selection select \"No category\" option."
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:280
+msgid "Initial order status"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Api.php:42
+#, php-format
+msgid ""
+"Invalid API key(s). Get them on the %sDevelopers page in the Mollie "
+"dashboard%s. The API key(s) must start with 'live_' or 'test_', be at least "
+"30 characters and must not contain any special characters."
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Kbc.php:38 src/Mollie/WC/Gateway/Ideal.php:39
+#: src/Mollie/WC/Gateway/Giftcard.php:37
+msgid "Issuers empty option"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:45
+msgid "Italian"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Kbc.php:59
+msgid "KBC/CBC Payment Button"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/KlarnaPayLater.php:33
+msgid "Klarna Pay later"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/KlarnaPayNow.php:31
+msgid "Klarna Pay now"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/KlarnaSliceIt.php:33
+msgid "Klarna Slice it"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:53
+msgid "Latvian"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:226
+msgid "Limit the maximum fee added on checkout. Default 0, means no limit"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:54
+msgid "Lithuanian"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:670
+msgid "Live API key"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:681
+msgid "Live API key should start with live_"
+msgstr ""
+
+#. Placeholder 1: Location of the log files
+#: src/Mollie/WC/Helper/Settings.php:650
+#, php-format
+msgid "Log files are saved to <code>%s</code>"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:644
+msgid "Log plugin events."
+msgstr ""
+
+#: src/Mollie/WC/Plugin.php:1301
+msgid "Logs"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:239
+msgid ""
+"Maximum order amount to apply surcharge. If the order is above this number "
+"the surcharge will not apply. Default 0, means no maximum"
+msgstr ""
+
+#: src/Mollie/WC/Plugin.php:416 src/Mollie/WC/Plugin.php:448
+#: src/Mollie/WC/Plugin.php:471 src/Mollie/WC/Plugin.php:584
+msgid "Meal"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:122
+msgid "Minimum amount to display button"
+msgstr ""
+
+#. Author of the plugin
+msgid "Mollie"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:6
+msgid "Mollie advanced settings"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Status.php:80
+msgid ""
+"Mollie API client not installed. Please make sure the plugin is installed "
+"correctly."
+msgstr ""
+
+#: inc/settings/mollie_components_enabler.php:12
+#: src/Mollie/WC/Settings/Page/Components.php:10
+#: src/Mollie/WC/Settings/Page/Mollie.php:139
+msgid "Mollie Components"
+msgstr ""
+
+#: inc/settings/mollie_components.php:72
+msgctxt "Mollie Components Settings"
+msgid ""
+"Add padding to the components. Allowed units include `16px 16px 16px 16px` "
+"and `em`, `px`, `rem`."
+msgstr ""
+
+#: inc/settings/mollie_components.php:82
+msgctxt "Mollie Components Settings"
+msgid "Align Text"
+msgstr ""
+
+#: inc/settings/mollie_components.php:16 inc/settings/mollie_components.php:156
+msgctxt "Mollie Components Settings"
+msgid "Background Color"
+msgstr ""
+
+#: inc/settings/mollie_components.php:157
+msgctxt "Mollie Components Settings"
+msgid "Background Color for invalid input."
+msgstr ""
+
+#: inc/settings/mollie_components.php:7
+msgctxt "Mollie Components Settings"
+msgid "Base Styles"
+msgstr ""
+
+#: inc/settings/mollie_components.php:50
+msgctxt "Mollie Components Settings"
+msgid "Bold"
+msgstr ""
+
+#: inc/settings/mollie_components.php:102
+msgctxt "Mollie Components Settings"
+msgid "Capitalize"
+msgstr ""
+
+#: inc/settings/mollie_components.php:87
+msgctxt "Mollie Components Settings"
+msgid "Center"
+msgstr ""
+
+#: inc/settings/mollie_components.php:35
+msgctxt "Mollie Components Settings"
+msgid "Defines the component font size. Allowed units: 'em', 'px', 'rem'."
+msgstr ""
+
+#: inc/settings/mollie_components.php:34
+msgctxt "Mollie Components Settings"
+msgid "Font Size"
+msgstr ""
+
+#: inc/settings/mollie_components.php:45
+msgctxt "Mollie Components Settings"
+msgid "Font Weight"
+msgstr ""
+
+#: inc/settings/mollie_components.php:122
+msgctxt "Mollie Components Settings"
+msgid "Full Size Kana"
+msgstr ""
+
+#: inc/settings/mollie_components.php:117
+msgctxt "Mollie Components Settings"
+msgid "Full Width"
+msgstr ""
+
+#: inc/settings/mollie_components.php:136
+msgctxt "Mollie Components Settings"
+msgid "Invalid Status Styles"
+msgstr ""
+
+#: inc/settings/mollie_components.php:88
+msgctxt "Mollie Components Settings"
+msgid "Justify"
+msgstr ""
+
+#: inc/settings/mollie_components.php:85
+msgctxt "Mollie Components Settings"
+msgid "Left"
+msgstr ""
+
+#: inc/settings/mollie_components.php:56
+msgctxt "Mollie Components Settings"
+msgid "Letter Spacing"
+msgstr ""
+
+#: inc/settings/mollie_components.php:48
+msgctxt "Mollie Components Settings"
+msgid "Lighter"
+msgstr ""
+
+#: inc/settings/mollie_components.php:62
+msgctxt "Mollie Components Settings"
+msgid "Line Height"
+msgstr ""
+
+#: inc/settings/mollie_components.php:112
+msgctxt "Mollie Components Settings"
+msgid "Lowercase"
+msgstr ""
+
+#: inc/settings/mollie_components.php:97
+msgctxt "Mollie Components Settings"
+msgid "None"
+msgstr ""
+
+#: inc/settings/mollie_components.php:71
+msgctxt "Mollie Components Settings"
+msgid "Padding"
+msgstr ""
+
+#: inc/settings/mollie_components.php:28
+msgctxt "Mollie Components Settings"
+msgid "Placeholder Color"
+msgstr ""
+
+#: inc/settings/mollie_components.php:49
+msgctxt "Mollie Components Settings"
+msgid "Regular"
+msgstr ""
+
+#: inc/settings/mollie_components.php:86
+msgctxt "Mollie Components Settings"
+msgid "Right"
+msgstr ""
+
+#: inc/settings/mollie_components.php:22 inc/settings/mollie_components.php:145
+msgctxt "Mollie Components Settings"
+msgid "Text Color"
+msgstr ""
+
+#: inc/settings/mollie_components.php:146
+msgctxt "Mollie Components Settings"
+msgid "Text Color for invalid input."
+msgstr ""
+
+#: inc/settings/mollie_components.php:94
+msgctxt "Mollie Components Settings"
+msgid "Transform Text "
+msgstr ""
+
+#: inc/settings/mollie_components.php:107
+msgctxt "Mollie Components Settings"
+msgid "Uppercase"
+msgstr ""
+
+#: src/Mollie/WC/Payment/RefundLineItemsBuilder.php:119
+msgid ""
+"Mollie doesn't allow a partial refund of the full amount or quantity of at "
+"least one order line. Trying to process this as an amount refund instead."
+msgstr ""
+
+#. Name of the plugin
+msgid "Mollie Payments for WooCommerce"
+msgstr ""
+
+#. Placeholder 1: Required PHP version, placeholder 2: current PHP version
+#: src/Mollie/WC/Helper/Status.php:104
+#, php-format
+msgid ""
+"Mollie Payments for WooCommerce require PHP %s or higher, you have PHP %s. "
+"Please upgrade and view %sthis FAQ%s"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Status.php:131
+msgid ""
+"Mollie Payments for WooCommerce require PHP cURL functions to be available. "
+"Please make sure all of these functions are available."
+msgstr ""
+
+#: src/Mollie/WC/Helper/Status.php:89
+msgid ""
+"Mollie Payments for WooCommerce requires the JSON extension for PHP. Enable "
+"it in your server or ask your webhoster to enable it for you."
+msgstr ""
+
+#: src/Mollie/WC/Helper/Status.php:123
+msgid ""
+"Mollie Payments for WooCommerce requires the PHP extension cURL to be "
+"enabled. Please enable the 'curl' extension in your PHP configuration."
+msgstr ""
+
+#: src/Mollie/WC/Helper/Status.php:116
+msgid ""
+"Mollie Payments for WooCommerce requires the PHP extension JSON to be "
+"enabled. Please enable the 'json' extension in your PHP configuration."
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:44
+msgctxt "Mollie PayPal Button Settings"
+msgid "Button text language and color"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:72
+msgctxt "Mollie PayPal button Settings"
+msgid "Dutch -- Buy with PayPal - Pill black"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:74
+msgctxt "Mollie PayPal button Settings"
+msgid "Dutch -- Buy with PayPal - Pill blue"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:76
+msgctxt "Mollie PayPal button Settings"
+msgid "Dutch -- Buy with PayPal - Pill golden"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:78
+msgctxt "Mollie PayPal button Settings"
+msgid "Dutch -- Buy with PayPal - Pill gray"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:80
+msgctxt "Mollie PayPal button Settings"
+msgid "Dutch -- Buy with PayPal - Pill white"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:73
+msgctxt "Mollie PayPal button Settings"
+msgid "Dutch -- Buy with PayPal - Rounded black"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:75
+msgctxt "Mollie PayPal button Settings"
+msgid "Dutch -- Buy with PayPal - Rounded blue"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:77
+msgctxt "Mollie PayPal button Settings"
+msgid "Dutch -- Buy with PayPal - Rounded golden"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:79
+msgctxt "Mollie PayPal button Settings"
+msgid "Dutch -- Buy with PayPal - Rounded gray"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:81
+msgctxt "Mollie PayPal button Settings"
+msgid "Dutch -- Buy with PayPal - Rounded white"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:82
+msgctxt "Mollie PayPal button Settings"
+msgid "Dutch -- Checkout with PayPal - Pill black"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:84
+msgctxt "Mollie PayPal button Settings"
+msgid "Dutch -- Checkout with PayPal - Pill blue"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:86
+msgctxt "Mollie PayPal button Settings"
+msgid "Dutch -- Checkout with PayPal - Pill golden"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:88
+msgctxt "Mollie PayPal button Settings"
+msgid "Dutch -- Checkout with PayPal - Pill gray"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:90
+msgctxt "Mollie PayPal button Settings"
+msgid "Dutch -- Checkout with PayPal - Pill white"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:83
+msgctxt "Mollie PayPal button Settings"
+msgid "Dutch -- Checkout with PayPal - Rounded black"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:85
+msgctxt "Mollie PayPal button Settings"
+msgid "Dutch -- Checkout with PayPal - Rounded blue"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:87
+msgctxt "Mollie PayPal button Settings"
+msgid "Dutch -- Checkout with PayPal - Rounded golden"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:89
+msgctxt "Mollie PayPal button Settings"
+msgid "Dutch -- Checkout with PayPal - Rounded gray"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:91
+msgctxt "Mollie PayPal button Settings"
+msgid "Dutch -- Checkout with PayPal - Rounded white"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:54
+msgctxt "Mollie PayPal button Settings"
+msgid "English -- Buy with PayPal - Pill blue"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:56
+msgctxt "Mollie PayPal button Settings"
+msgid "English -- Buy with PayPal - Pill golden"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:58
+msgctxt "Mollie PayPal button Settings"
+msgid "English -- Buy with PayPal - Pill gray"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:60
+msgctxt "Mollie PayPal button Settings"
+msgid "English -- Buy with PayPal - Pill white"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:55
+msgctxt "Mollie PayPal button Settings"
+msgid "English -- Buy with PayPal - Rounded blue"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:57
+msgctxt "Mollie PayPal button Settings"
+msgid "English -- Buy with PayPal - Rounded golden"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:59
+msgctxt "Mollie PayPal button Settings"
+msgid "English -- Buy with PayPal - Rounded gray"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:61
+msgctxt "Mollie PayPal button Settings"
+msgid "English -- Buy with PayPal - Rounded white"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:62
+msgctxt "Mollie PayPal button Settings"
+msgid "English -- Checkout with PayPal - Pill black"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:64
+msgctxt "Mollie PayPal button Settings"
+msgid "English -- Checkout with PayPal - Pill blue"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:66
+msgctxt "Mollie PayPal button Settings"
+msgid "English -- Checkout with PayPal - Pill golden"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:68
+msgctxt "Mollie PayPal button Settings"
+msgid "English -- Checkout with PayPal - Pill gray"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:70
+msgctxt "Mollie PayPal button Settings"
+msgid "English -- Checkout with PayPal - Pill white"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:63
+msgctxt "Mollie PayPal button Settings"
+msgid "English -- Checkout with PayPal - Rounded black"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:65
+msgctxt "Mollie PayPal button Settings"
+msgid "English -- Checkout with PayPal - Rounded blue"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:67
+msgctxt "Mollie PayPal button Settings"
+msgid "English -- Checkout with PayPal - Rounded golden"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:69
+msgctxt "Mollie PayPal button Settings"
+msgid "English -- Checkout with PayPal - Rounded gray"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:71
+msgctxt "Mollie PayPal button Settings"
+msgid "English -- Checkout with PayPal - Rounded white"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:112
+msgctxt "Mollie PayPal button Settings"
+msgid "French -- Buy with PayPal - Gold"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:113
+msgctxt "Mollie PayPal button Settings"
+msgid "French -- Checkout with PayPal - Gold"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:114
+msgctxt "Mollie PayPal button Settings"
+msgid "French -- Checkout with PayPal - Silver"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:92
+msgctxt "Mollie PayPal button Settings"
+msgid "German -- Buy with PayPal - Pill black"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:94
+msgctxt "Mollie PayPal button Settings"
+msgid "German -- Buy with PayPal - Pill blue"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:96
+msgctxt "Mollie PayPal button Settings"
+msgid "German -- Buy with PayPal - Pill golden"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:98
+msgctxt "Mollie PayPal button Settings"
+msgid "German -- Buy with PayPal - Pill gray"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:100
+msgctxt "Mollie PayPal button Settings"
+msgid "German -- Buy with PayPal - Pill white"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:93
+msgctxt "Mollie PayPal button Settings"
+msgid "German -- Buy with PayPal - Rounded black"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:95
+msgctxt "Mollie PayPal button Settings"
+msgid "German -- Buy with PayPal - Rounded blue"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:97
+msgctxt "Mollie PayPal button Settings"
+msgid "German -- Buy with PayPal - Rounded golden"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:99
+msgctxt "Mollie PayPal button Settings"
+msgid "German -- Buy with PayPal - Rounded gray"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:101
+msgctxt "Mollie PayPal button Settings"
+msgid "German -- Buy with PayPal - Rounded white"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:102
+msgctxt "Mollie PayPal button Settings"
+msgid "German -- Checkout with PayPal - Pill black"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:104
+msgctxt "Mollie PayPal button Settings"
+msgid "German -- Checkout with PayPal - Pill blue"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:106
+msgctxt "Mollie PayPal button Settings"
+msgid "German -- Checkout with PayPal - Pill golden"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:108
+msgctxt "Mollie PayPal button Settings"
+msgid "German -- Checkout with PayPal - Pill gray"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:110
+msgctxt "Mollie PayPal button Settings"
+msgid "German -- Checkout with PayPal - Pill white"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:103
+msgctxt "Mollie PayPal button Settings"
+msgid "German -- Checkout with PayPal - Rounded black"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:105
+msgctxt "Mollie PayPal button Settings"
+msgid "German -- Checkout with PayPal - Rounded blue"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:107
+msgctxt "Mollie PayPal button Settings"
+msgid "German -- Checkout with PayPal - Rounded golden"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:109
+msgctxt "Mollie PayPal button Settings"
+msgid "German -- Checkout with PayPal - Rounded gray"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:111
+msgctxt "Mollie PayPal button Settings"
+msgid "German -- Checkout with PayPal - Rounded white"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:115
+msgctxt "Mollie PayPal button Settings"
+msgid "Polish -- Buy with PayPal - Gold"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:116
+msgctxt "Mollie PayPal button Settings"
+msgid "Polish -- Checkout with PayPal - Gold"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:117
+msgctxt "Mollie PayPal button Settings"
+msgid "Polish -- Checkout with PayPal - Silver"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:46
+msgctxt "Mollie PayPal Button Settings"
+msgid "Select the text and the colour of the button."
+msgstr ""
+
+#: src/Mollie/WC/Plugin.php:379 src/Mollie/WC/Helper/Settings.php:663
+#: src/Mollie/WC/Settings/Page/Mollie.php:11
+msgid "Mollie Settings"
+msgstr ""
+
+#: src/Mollie/WC/Plugin.php:1295
+msgid "Mollie settings"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:507
+msgid "Mollie status:"
+msgstr ""
+
+#: src/Mollie/WC/Plugin.php:411 src/Mollie/WC/Plugin.php:444
+#: src/Mollie/WC/Plugin.php:466
+msgid "Mollie Voucher Category"
+msgstr ""
+
+#: src/Mollie/WC/Plugin.php:579
+msgid "Mollie Voucher category"
+msgstr ""
+
+#. Placeholder 1: payment method title, placeholder 2: payment ID
+#: src/Mollie/WC/Payment/Object.php:677
+#, php-format
+msgid ""
+"Mollie webhook called, but payment also started via %s, so the order status "
+"is not updated."
+msgstr ""
+
+#: src/Mollie/WC/Gateway/MyBank.php:36
+msgid "MyBank"
+msgstr ""
+
+#: src/Mollie/WC/Plugin.php:919
+msgid "Name on card"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Abstract.php:1144
+#, php-format
+msgid "New chargeback %s processed! Order note and order status updated."
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Abstract.php:1008
+#, php-format
+msgid ""
+"New refund %s processed in Mollie Dashboard! Order note added, but order not "
+"updated."
+msgstr ""
+
+#. The surrounding %s's Will be replaced by a link to the global setting page
+#: src/Mollie/WC/Gateway/Abstract.php:339
+#, php-format
+msgid "No API key provided. Please %sset you Mollie API key%s first."
+msgstr ""
+
+#: src/Mollie/WC/Helper/Api.php:40
+msgid "No API key provided. Please set your Mollie API keys below."
+msgstr ""
+
+#: src/Mollie/WC/Plugin.php:415 src/Mollie/WC/Plugin.php:447
+#: src/Mollie/WC/Plugin.php:470 src/Mollie/WC/Plugin.php:583
+msgid "No Category"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Abstract.php:138
+msgid "No custom logo selected"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:172
+msgid "No fee"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:46
+msgid "Norwegian"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/BankTransfer.php:47
+#, php-format
+msgid ""
+"Number of DAYS after the payment will expire. Default <code>%d</code> days"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:267
+msgid ""
+"Number of MINUTES after the order will expire and will be canceled at Mollie "
+"and WooCommerce. A value of 0 means no expiry date will be considered."
+msgstr ""
+
+#: src/Mollie/WC/Payment/OrderItemsRefunder.php:109
+msgid ""
+"One of the WooCommerce order items does not have the refund item ID meta "
+"value associated to Mollie Order item."
+msgstr ""
+
+#. Placeholder 1: payment method title, placeholder 2: payment ID
+#: src/Mollie/WC/Payment/Order.php:314
+#, php-format
+msgid ""
+"Order authorized using %s payment (%s). Set order to completed in "
+"WooCommerce when you have shipped the products, to capture the payment. Do "
+"this within 28 days, or the order will expire. To handle individual order "
+"lines, process the order via the Mollie Dashboard."
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Abstract.php:1589
+msgid "Order cancelled"
+msgstr ""
+
+#. Placeholder 1: payment method title, placeholder 2: payment ID
+#: src/Mollie/WC/Payment/Order.php:361
+#, php-format
+msgid ""
+"Order completed at Mollie for %s order (%s). At least one order line "
+"completed. Remember: Completed status for an order at Mollie is not the same "
+"as Completed status in WooCommerce!"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Abstract.php:577
+msgid ""
+"Order completed internally because of an existing valid mandate at Mollie."
+msgstr ""
+
+#. Placeholder 1: payment method title, placeholder 2: payment ID
+#: src/Mollie/WC/Gateway/AbstractSepaRecurring.php:145
+#, php-format
+msgid "Order completed using %1$s payment (%2$s)."
+msgstr ""
+
+#. Placeholder 1: payment method title, placeholder 2: payment ID
+#: src/Mollie/WC/Payment/Order.php:262 src/Mollie/WC/Payment/Payment.php:247
+#, php-format
+msgid "Order completed using %s payment (%s)."
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:12
+msgid "Order status after cancelled payment"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:631
+msgid ""
+"Our pricing is always per transaction. No startup fees, no monthly fees, and "
+"no gateway fees. No hidden fees, period."
+msgstr ""
+
+#: src/Mollie/WC/Gateway/MyBank.php:73
+#, php-format
+msgid "Payment completed by <strong>%1$s</strong> - %2$s"
+msgstr ""
+
+#. Placeholder 1: card holder
+#: src/Mollie/WC/Gateway/Creditcard.php:136
+#, php-format
+msgid "Payment completed by <strong>%s</strong>"
+msgstr ""
+
+#. Placeholder 1: consumer name, placeholder 2: consumer IBAN, placeholder 3: consumer BIC
+#: src/Mollie/WC/Gateway/Sofort.php:64 src/Mollie/WC/Gateway/Ideal.php:124
+#: src/Mollie/WC/Gateway/BankTransfer.php:188
+#: src/Mollie/WC/Gateway/DirectDebit.php:80
+#, php-format
+msgid ""
+"Payment completed by <strong>%s</strong> (IBAN (last 4 digits): %s, BIC: %s)"
+msgstr ""
+
+#. Placeholder 1: PayPal consumer name, placeholder 2: PayPal email, placeholder 3: PayPal transaction ID
+#: src/Mollie/WC/Gateway/PayPal.php:74 src/Mollie/WC/Payment/Object.php:695
+#, php-format
+msgid ""
+"Payment completed by <strong>%s</strong> - %s (PayPal transaction ID: %s)"
+msgstr ""
+
+#. Placeholder 1: customer billing email
+#: src/Mollie/WC/Gateway/Przelewy24.php:64
+#, php-format
+msgid "Payment completed by <strong>%s</strong>."
+msgstr ""
+
+#. Placeholder 1: payment method
+#: src/Mollie/WC/Gateway/Abstract.php:1541
+#, php-format
+msgid "Payment completed with <strong>%s</strong>"
+msgstr ""
+
+#. Placeholder 1: enabled or disabled
+#: inc/settings/mollie_applepay_settings.php:63
+#: src/Mollie/WC/Helper/Settings.php:84
+#, php-format
+msgid ""
+"Payment method description that the customer will see on your checkout. "
+"Default <code>%s</code>"
+msgstr ""
+
+#. Placeholder 1: Payment reference e.g. RF49-0000-4716-6216 (SEPA) or +++513/7587/59959+++ (Belgium)
+#: src/Mollie/WC/Gateway/BankTransfer.php:209
+#, php-format
+msgid "Payment reference: %s"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:23
+msgid "Payment screen language"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:166
+msgid "Payment Surcharge"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:197
+#, php-format
+msgid "Payment surcharge fixed amount in %s"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:223
+#, php-format
+msgid "Payment surcharge limit in %s"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:210
+msgid "Payment surcharge percentage amount %"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/PayPal.php:43
+msgid "PayPal"
+msgstr ""
+
+#: inc/settings/mollie_paypal_button_enabler.php:7
+msgid "PayPal button display settings"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Paysafecard.php:20
+msgid "paysafecard"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:180
+msgid "Percentage"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Abstract.php:2166
+#, php-format
+msgctxt ""
+"Placeholder 1: giftcard issuer, Placeholder 2: amount value, Placeholder 3: "
+"currency"
+msgid "Mollie - Giftcard details: %1$s %2$s %3$s."
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Abstract.php:2178
+#, php-format
+msgctxt ""
+"Placeholder 1: remainder method, Placeholder 2: amount value, Placeholder 3: "
+"currency"
+msgid " Remainder: %1$s %2$s %3$s."
+msgstr ""
+
+#: src/Mollie/WC/Gateway/BankTransfer.php:198
+msgid ""
+"Please complete your payment by transferring the total amount to the "
+"following bank account:"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:627
+msgid "Please go to"
+msgstr ""
+
+#. Placeholder 1: Payment reference e.g. RF49-0000-4716-6216 (SEPA) or +++513/7587/59959+++ (Belgium)
+#: src/Mollie/WC/Gateway/BankTransfer.php:214
+#, php-format
+msgid "Please provide the payment reference <strong>%s</strong>"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:635
+msgid "Plugin Documentation"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:52
+msgid "Polish"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:44
+msgid "Portuguese"
+msgstr ""
+
+#: src/Mollie/WC/Plugin.php:512
+msgid "Products voucher category"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Przelewy24.php:33
+msgid "Przelewy24"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:624
+msgid ""
+"Quickly integrate all major payment methods in WooCommerce, wherever you "
+"need them."
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:572
+msgid "Refresh"
+msgstr ""
+
+#. Placeholder 1: currency, placeholder 2: refunded amount, placeholder 3: optional refund reason, placeholder 4: payment ID, placeholder 5: refund ID
+#: src/Mollie/WC/Payment/Payment.php:509
+#, php-format
+msgid "Refunded %s%s%s - Payment: %s, Refund: %s"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Abstract.php:244
+msgid "Return to payments"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:107
+msgid "Sales countries"
+msgstr ""
+
+#: src/Mollie/WC/Plugin.php:519 src/Mollie/WC/Plugin.php:582
+msgid "Same as default category"
+msgstr ""
+
+#: src/Mollie/WC/Plugin.php:452 src/Mollie/WC/Plugin.php:475
+msgid "Select a voucher category to apply to all products with this category"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Abstract.php:282
+msgid "Select all"
+msgstr ""
+
+#. Placeholder 1: Default order status, placeholder 2: Link to 'Hold Stock' setting
+#: inc/settings/mollie_advanced_settings.php:124
+#, php-format
+msgid ""
+"Select among the available variables the description to be used for this "
+"transaction.%s(Note: this only works when the method is set to Payments API)"
+"%s"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:82
+msgid "Select API Method"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Abstract.php:283
+msgid "Select none"
+msgstr ""
+
+#: src/Mollie/WC/Plugin.php:508 src/Mollie/WC/Gateway/Mealvoucher.php:35
+msgid "Select the default products category"
+msgstr ""
+
+#. Default KBC/CBC dropdown description, displayed above issuer drop down
+#. Default iDEAL description, displayed above issuer drop down
+#: src/Mollie/WC/Gateway/Kbc.php:75 src/Mollie/WC/Gateway/Ideal.php:76
+msgid "Select your bank"
+msgstr ""
+
+#. Default gift card dropdown description, displayed above issuer drop down
+#: src/Mollie/WC/Gateway/Giftcard.php:74
+msgid "Select your gift card"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:114 src/Mollie/WC/Gateway/Abstract.php:260
+msgid "Sell to specific countries"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:57
+msgid ""
+"Sending a language (or locale) is required. The option 'Automatically send "
+"WordPress language' will try to get the customer's language in WordPress "
+"(and respects multilanguage plugins) and convert it to a format Mollie "
+"understands. If this fails, or if the language is not supported, it will "
+"fall back to American English. You can also select one of the locales "
+"currently supported by Mollie, that will then be used for all customers."
+msgstr ""
+
+#: src/Mollie/WC/Gateway/DirectDebit.php:42
+msgid "SEPA Direct Debit"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/DirectDebit.php:49
+msgid ""
+"SEPA Direct Debit is used for recurring payments with WooCommerce "
+"Subscriptions, and will not be shown in the WooCommerce checkout for regular "
+"payments! You also need to enable iDEAL and/or other \"first\" payment "
+"methods if you want to use SEPA Direct Debit."
+msgstr ""
+
+#: src/Mollie/WC/Helper/OrderLines.php:499
+msgid "Shipping"
+msgstr ""
+
+#. Placeholder 1: enabled or disabled
+#: inc/settings/mollie_advanced_settings.php:68
+#, php-format
+msgid ""
+"Should Mollie store customers name and email address for Single Click "
+"Payments? Default <code>%1$s</code>. Required if WooCommerce Subscriptions "
+"is being used! Read more about <a href=\"https://help.mollie.com/hc/en-"
+"us/articles/115000671249-What-are-single-click-payments-and-how-does-it-work-"
+"\">%2$s</a> and how it improves your conversion."
+msgstr ""
+
+#: inc/settings/mollie_creditcard_icons_selector.php:21
+msgid "Show American Express Icon"
+msgstr ""
+
+#: inc/settings/mollie_creditcard_icons_selector.php:26
+msgid "Show Carta Si Icon"
+msgstr ""
+
+#: inc/settings/mollie_creditcard_icons_selector.php:31
+msgid "Show Carte Bancaire Icon"
+msgstr ""
+
+#: inc/settings/mollie_creditcard_icons_selector.php:13
+msgid "Show customized creditcard icons on checkout page"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Giftcard.php:31
+msgid "Show gift cards dropdown"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Ideal.php:33
+msgid "Show iDEAL banks dropdown"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Kbc.php:32
+msgid "Show KBC/CBC banks dropdown"
+msgstr ""
+
+#: inc/settings/mollie_creditcard_icons_selector.php:36
+msgid "Show Maestro Icon"
+msgstr ""
+
+#: inc/settings/mollie_creditcard_icons_selector.php:41
+msgid "Show Mastercard Icon"
+msgstr ""
+
+#: inc/settings/mollie_creditcard_icons_selector.php:46
+msgid "Show Visa Icon"
+msgstr ""
+
+#: inc/settings/mollie_creditcard_icons_selector.php:51
+msgid "Show VPay Icon"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:73
+msgid "Single Click Payments"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/BankTransfer.php:56
+msgid "Skip Mollie payment screen"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/BankTransfer.php:57
+msgid "Skip Mollie payment screen when Bank Transfer is selected"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Sofort.php:33
+msgid "SOFORT Banking"
+msgstr ""
+
+#. Placeholder 1: Default order status, placeholder 2: Link to 'Hold Stock' setting
+#: src/Mollie/WC/Helper/Settings.php:299
+#, php-format
+msgid ""
+"Some payment methods take longer than a few hours to complete. The initial "
+"order state is then set to '%s'. This ensures the order is not cancelled "
+"when the setting %s is used."
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:42
+msgid "Spanish"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:18
+msgid ""
+"Status for orders when a payment (not a Mollie order via the Orders API) is "
+"cancelled. Default: pending. Orders with status Pending can be paid with "
+"another payment method, customers can try again. Cancelled orders are final. "
+"Set this to Cancelled if you only have one payment method or don't want "
+"customers to re-try paying with a different payment method. This doesn't "
+"apply to payments for orders via the new Orders API and Klarna payments."
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:65
+msgid "Store customer details at Mollie"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Abstract.php:588
+msgid ""
+"Subscription switch failed, no valid mandate found. Place a completely new "
+"order to change your subscription."
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:134
+msgid "Surcharge gateway fee label"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:236
+#, php-format
+msgid "Surcharge only under this limit, in %s"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:47
+msgid "Swedish"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:41
+msgid "Swiss German"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:692
+msgid "Test API key"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:703
+msgid "Test API key should start with test_"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/AbstractSubscription.php:422
+#: src/Mollie/WC/Gateway/AbstractSepaRecurring.php:73
+#: src/Mollie/WC/Gateway/AbstractSepaRecurring.php:139
+#: src/Mollie/WC/Gateway/Abstract.php:670
+#: src/Mollie/WC/Gateway/Abstract.php:897
+#: src/Mollie/WC/Gateway/Abstract.php:1181
+#: src/Mollie/WC/Gateway/Abstract.php:1243
+#: src/Mollie/WC/Gateway/Abstract.php:1618
+#: src/Mollie/WC/Gateway/Abstract.php:2142 src/Mollie/WC/Payment/Object.php:608
+#: src/Mollie/WC/Payment/Object.php:642 src/Mollie/WC/Payment/Order.php:264
+#: src/Mollie/WC/Payment/Order.php:316 src/Mollie/WC/Payment/Order.php:363
+#: src/Mollie/WC/Payment/Order.php:446 src/Mollie/WC/Payment/Order.php:511
+#: src/Mollie/WC/Payment/Order.php:936 src/Mollie/WC/Payment/Payment.php:249
+#: src/Mollie/WC/Payment/Payment.php:336 src/Mollie/WC/Payment/Payment.php:406
+#: src/Mollie/WC/Payment/Payment.php:429
+msgid "test mode"
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:558 src/Mollie/WC/Gateway/Abstract.php:337
+msgid "Test mode enabled."
+msgstr ""
+
+#. Placeholder 1: Plugin name, placeholder 2: required WooCommerce version, placeholder 3: used WooCommerce version
+#: src/Mollie/WC/Helper/Status.php:67
+#, php-format
+msgid ""
+"The %s plugin requires at least WooCommerce version %s, you are using "
+"version %s. Please update your WooCommerce plugin."
+msgstr ""
+
+#. Placeholder 1: API key mode (live or test). The surrounding %s's Will be replaced by a link to the Mollie profile
+#: src/Mollie/WC/Helper/Settings.php:675 src/Mollie/WC/Helper/Settings.php:697
+#, php-format
+msgid ""
+"The API key is used to connect to Mollie. You can find your <strong>"
+"%s</strong> API key in your %sMollie profile%s"
+msgstr ""
+
+#: inc/settings/mollie_apple_pay_button_enabler.php:11
+msgid "The following options are required to use the Apple Pay button"
+msgstr ""
+
+#: inc/settings/mollie_applepay_settings.php:84
+msgid "The following options are required to use the Apple Pay Direct Button"
+msgstr ""
+
+#: inc/settings/mollie_applepay_settings.php:14
+msgid "The following options are required to use the Apple Pay gateway"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:8
+#: src/Mollie/WC/Helper/Settings.php:666
+msgid ""
+"The following options are required to use the plugin and are used by all "
+"Mollie payment methods"
+msgstr ""
+
+#. The surrounding %s's Will be replaced by a link to the Mollie profile
+#: src/Mollie/WC/Helper/Settings.php:563
+#, php-format
+msgid "The following payment methods are activated in your %sMollie profile%s:"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/BankTransfer.php:228
+#, php-format
+msgid "The payment will expire on <strong>%s</strong>."
+msgstr ""
+
+#: src/Mollie/WC/Gateway/BankTransfer.php:235
+#, php-format
+msgid ""
+"The payment will expire on <strong>%s</strong>. Please make sure you "
+"transfer the total amount before this date."
+msgstr ""
+
+#. Placeholder 1: enabled or disabled
+#: inc/settings/mollie_applepay_settings.php:32
+#: src/Mollie/WC/Helper/Settings.php:71
+#, php-format
+msgid ""
+"This controls the title which the user sees during checkout. Default <code>"
+"%s</code>"
+msgstr ""
+
+#: inc/settings/mollie_advanced_settings.php:142
+msgid "This is the label will appear in frontend when the surcharge applies"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Giftcard.php:39
+msgid ""
+"This text will be displayed as the first option in the gift card dropdown, "
+"but only if the above 'Show gift cards dropdown' is enabled."
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Ideal.php:41
+msgid ""
+"This text will be displayed as the first option in the iDEAL issuers drop "
+"down, if nothing is entered, \"Select your bank\" will be shown. Only if the "
+"above 'Show iDEAL banks dropdown' is enabled."
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Kbc.php:40
+msgid ""
+"This text will be displayed as the first option in the KBC/CBC issuers drop "
+"down, if nothing is entered, \"Select your bank\" will be shown. Only if the "
+"above ''Show KBC/CBC banks dropdown' is enabled."
+msgstr ""
+
+#: inc/settings/mollie_applepay_settings.php:29
+#: src/Mollie/WC/Helper/Settings.php:68
+msgid "Title"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Applepay.php:56
+msgid "To accept payments via Apple Pay"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/KlarnaSliceIt.php:40
+#: src/Mollie/WC/Gateway/KlarnaPayNow.php:38
+#: src/Mollie/WC/Gateway/KlarnaPayLater.php:40
+msgid ""
+"To accept payments via Klarna, all default WooCommerce checkout fields "
+"should be enabled and required."
+msgstr ""
+
+#: src/Mollie/WC/Gateway/MyBank.php:44
+msgid "To accept payments via MyBank"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Przelewy24.php:40
+msgid ""
+"To accept payments via Przelewy24, a customer email is required for every "
+"payment."
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:628
+msgid ""
+"to create a new Mollie account and start receiving payments in a couple of "
+"minutes. "
+msgstr ""
+
+#. Placeholder 1: Payment method title, placeholder 2: payment ID
+#: src/Mollie/WC/Gateway/AbstractSubscription.php:165
+msgid ""
+"Updated subscription from 'On hold' to 'Active' until payment fails, because "
+"a SEPA Direct Debit payment takes some time to process."
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:150
+msgid "Upload a custom icon for this gateway. The feature must be enabled."
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:143
+msgid "Upload custom logo"
+msgstr ""
+
+#: inc/settings/mollie_components_enabler.php:8
+#, php-format
+msgid ""
+"Use the Mollie Components for this Gateway. Read more about <a href=\"https:"
+"//www.mollie.com/en/news/post/better-checkout-flows-with-mollie-components\">"
+"%s</a> and how it improves your conversion."
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Mealvoucher.php:66
+msgid "Voucher"
+msgstr ""
+
+#. Default gift card dropdown description, displayed above issuer drop down
+#: src/Mollie/WC/Gateway/Mealvoucher.php:82
+msgid "voucher"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Abstract.php:1529
+msgid "We have not received a definite payment status."
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Abstract.php:1534
+msgid ""
+"We have not received a definite payment status. You will receive an email as "
+"soon as we receive a confirmation of the bank/merchant."
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:855
+#, php-format
+msgid ""
+"You have activated Klarna. To accept payments, please make sure all default "
+"WooCommerce checkout fields are enabled and required. For more information, "
+"go to %1sKlarna Pay Later documentation%2s or  %3sKlarna Slice it "
+"documentation%4s"
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Abstract.php:1314
+msgid ""
+"You have cancelled your payment. Please complete your order with a different "
+"payment method."
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:834
+msgid ""
+"You have the WooCommerce default Direct Bank Transfer (BACS) payment gateway "
+"enabled in WooCommerce. Mollie strongly advices only using Bank Transfer via "
+"Mollie and disabling the default WooCommerce BACS payment gateway to prevent "
+"possible conflicts."
+msgstr ""
+
+#: src/Mollie/WC/Helper/Settings.php:810
+msgid ""
+"You have WooCommerce Subscriptions activated, but not SEPA Direct Debit. "
+"Enable SEPA Direct Debit if you want to allow customers to pay subscriptions "
+"with iDEAL and/or other \"first\" payment methods."
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Abstract.php:1652
+msgid "Your order has been cancelled."
+msgstr ""
+
+#: src/Mollie/WC/Gateway/Abstract.php:1328
+#: src/Mollie/WC/Gateway/Abstract.php:1337
+msgid ""
+"Your payment was not successful. Please complete your order with a different "
+"payment method."
+msgstr ""
